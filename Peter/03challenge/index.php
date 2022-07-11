@@ -19,9 +19,9 @@
       ["availability"=>false, "model"=> "Teacan", "price" => 3537, "location" => "Far Away"],  
       ["availability"=>true, "model"=> "Tiger", "price" => 200, "location" => "Khazan"]  
     ];
-    echo "<div class='row row-cols-lg-3 row-cols-md-6 row-cols-xm-12'>";
+    echo "<div class='containerfluid row m-1'>";
     
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[0]['model']} </h1><br>";
     echo "<p>Price: {$cars[0]['price']} </p>";
     echo "<p>Location:{$cars[0]['location']} </p>";
@@ -29,7 +29,7 @@
         else echo "<span class='bg-danger'>NOT Available</span>";
     echo "</div>";
 
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[1]['model']} </h1><br>";
     echo "<p>Price: {$cars[1]['price']} </p>";
     echo "<p>Location:{$cars[1]['location']} </p>";
@@ -37,7 +37,7 @@
         else echo "<span class='bg-danger'>NOT Available</span>";
     echo "</div>";
 
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[2]['model']} </h1><br>";
     echo "<p>Price: {$cars[2]['price']} </p>";
     echo "<p>Location:{$cars[2]['location']} </p>";
@@ -45,7 +45,7 @@
         else echo "<span class='bg-danger'>NOT Available</span>";
     echo "</div>";
 
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[3]['model']} </h1><br>";
     echo "<p>Price: {$cars[3]['price']} </p>";
     echo "<p>Location:{$cars[3]['location']} </p>";
@@ -53,7 +53,7 @@
         else echo "<span class='bg-danger'>NOT Available</span>";
     echo "</div>";
 
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[4]['model']} </h1><br>";
     echo "<p>Price: {$cars[4]['price']} </p>";
     echo "<p>Location:{$cars[4]['location']} </p>";
@@ -61,7 +61,7 @@
         else echo "<span class='bg-danger'>NOT Available</span>";
     echo "</div>";
 
-    echo "<div class='col d-flex flex-column'>";
+    echo "<div class='col-lg-4 col-md-6 col-sm-12 col-12 d-flex flex-column'>";
     echo "<h1>Model: {$cars[5]['model']} </h1><br>";
     echo "<p>Price: {$cars[5]['price']} </p>";
     echo "<p>Location:{$cars[5]['location']} </p>";
