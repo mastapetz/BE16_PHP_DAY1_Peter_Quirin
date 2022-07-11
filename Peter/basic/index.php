@@ -10,13 +10,20 @@
        <title>Hello World</title>
    </head>
    <body>
-        <div class="container test">
+        <div class="container test flex-column">
 
             <?php 
-        $name = 'Peter';
-        echo "<h1>$name</h1>"
-        //    echo $name;
-        ?>
+                $name = 'Peter';
+                $age = 41;
+                $job_title = 'Fullstack Developer';
+                echo "<h1>$name</h1>\n";
+                echo "<br>";
+                echo "hi, my is $name, and I am $age, and I work as a $job_title <br>";
+            
+                $name_array=["Mark", "John", "Georg", "Lisa"];
+                echo "the third player in the team is $name_array[2]";
+            
+            ?>
         </div>
 
         <!-- JavaScript Bundle with Popper -->
