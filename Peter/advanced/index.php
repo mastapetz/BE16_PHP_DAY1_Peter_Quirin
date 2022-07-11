@@ -15,7 +15,7 @@
         "Mickey Mouse" => [
             "Producer" => "Disney",
             "Style" => "Western Cartoon",
-            "First Appearance"  => "Steamboat Wolly"
+            "First Appearance"  => "Steamboat Willy"
         ],
         "Super Mario" => [
             "Producer" => "Nintendo",
@@ -33,11 +33,61 @@
             "First Appearance" => "Videogame Poket Monster, PokeMon"
         ]
         ];
+    // echo "Mickey Mouse by " . $popculture['Mickey Mouse']['Producer'];
+    echo "
+    <div class='containerfluid d-flex'>
+       
+        <div class='card'>
+            <div class='card-body'>
+                <h5 class='card-title'>Mickey Mouse</h5>
+                <p class='card-text'>
+                    <ul>
+                        <li>  by {$popculture['Mickey Mouse']['Producer']}</li>
+                        <li>  Style {$popculture['Mickey Mouse']['Style']}</li>
+                        <li>  First Appearance {$popculture['Mickey Mouse']['First Appearance']}</li>
+                    </ul>
+                </p>
+            </div>
+        </div> 
+        
+        <div class='card'>
+            <div class='card-body'>
+                <h5 class='card-title'>Super Mario</h5>
+                <p class='card-text'>
+                <ul>
+                    <li>  by {$popculture['Super Mario']['Producer']}</li>
+                    <li>  Style {$popculture['Super Mario']['Style']}</li>
+                    <li>  First Appearance {$popculture['Super Mario']['First Appearance']}</li>
+                </ul>
+                </p>
+            </div>
+        </div>
 
-
-
-
-
+        <div class='card'>
+        <div class='card-body'>
+            <h5 class='card-title'>Son Goku</h5>
+            <p class='card-text'>
+                <ul>
+                    <li>  by {$popculture['Son Goku']['Producer']}</li>
+                    <li>  Style {$popculture['Son Goku']['Style']}</li>
+                    <li>  First Appearance {$popculture['Son Goku']['First Appearance']}</li>
+                </ul>
+            </p>
+        </div>
+        </div>
+        <div class='card'>
+        <div class='card-body'>
+            <h5 class='card-title'>Pikachu</h5>
+            <p class='card-text'>
+                <ul>
+                    <li>  by {$popculture['Pikachu']['Producer']}</li>
+                    <li>  Style {$popculture['Pikachu']['Style']}</li>
+                    <li>  First Appearance {$popculture['Pikachu']['First Appearance']}</li>
+                </ul>
+            </p>
+        </div>
+        </div>
+    </div>"
 
     ?>
     <!-- JavaScript Bundle with Popper -->
